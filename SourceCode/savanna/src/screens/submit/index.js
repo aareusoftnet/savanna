@@ -66,7 +66,6 @@ const Submit = ({ navigation }) => {
         placeholder={AppStrings.tab1.form.placeholder.name}
         value={checkInsInfo.value.name}
         autoCapitalize={TextInput.AutoCapitalizeType.words}
-        keyboardType={TextInput.KeyboardType.emailAddress}
         returnKeyType={TextInput.ReturnKeyType.next}
         onChangeText={(text) =>
           setCheckInsInfo({
@@ -87,7 +86,6 @@ const Submit = ({ navigation }) => {
         containerBorderColor={AppColors.appD2D2D2}
         placeholder={AppStrings.tab1.form.placeholder.comment}
         value={checkInsInfo.value.comment}
-        keyboardType={TextInput.KeyboardType.emailAddress}
         returnKeyType={TextInput.ReturnKeyType.next}
         onChangeText={(text) =>
           setCheckInsInfo({
@@ -109,7 +107,6 @@ const Submit = ({ navigation }) => {
         placeholder={AppStrings.tab1.form.placeholder.imageURL}
         value={checkInsInfo.value.imageURL}
         autoCapitalize={TextInput.AutoCapitalizeType.none}
-        keyboardType={TextInput.KeyboardType.emailAddress}
         returnKeyType={TextInput.ReturnKeyType.done}
         blurOnSubmit={true}
         onChangeText={(text) =>
